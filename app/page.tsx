@@ -144,7 +144,7 @@ const paperCatalog: Paper[] = [
         exercise corroborates this mechanism.
       </>
     ),
-    appendix: true,
+    appendix: false,
   },
   {
     title:
