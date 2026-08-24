@@ -216,9 +216,6 @@ function PaperEntry({
             [{link.label}]
           </ExternalLink>
         ))}
-        {paper.appendix && (
-          <Link href="/banking-conflict-appendix/">[Online Appendix]</Link>
-        )}
       </p>
       {paper.authors && <p className="authors">{paper.authors}</p>}
       <details className="paper-details" open={defaultOpen}>
