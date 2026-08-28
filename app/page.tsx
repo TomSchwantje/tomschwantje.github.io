@@ -148,12 +148,16 @@ const paperCatalog: Paper[] = [
   },
   {
     title:
-      "Organisational Values, Self-Image and Inclusion: Evidence from a Field Experiment",
+      "Organisational Values, Decision Fatigue and Inclusion: Evidence from a Field Experiment",
     status: "Submitted",
     links: [
       {
         label: "Draft",
-        href: "./files/Organisational_Values_Self_Image_and_Inclusion.pdf",
+        href: "./files/Organisational_Values_Decision_Fatigue_and_Inclusion.pdf",
+      },
+      {
+        label: "Appendix",
+        href: "./files/Organisational_Values_Decision_Fatigue_and_Inclusion_Appendix.pdf",
       },
       { label: "CEPR DP", href: "https://cepr.org/publications/dp21457" },
     ],
@@ -162,20 +166,17 @@ const paperCatalog: Paper[] = [
       "CSAE Research Workshop (2023), Food for Thought Seminar (Bocconi), CSAE Conference 2025, Milan Experimental Coffee, CEPR-EBRD 3rd Accelerating growth for women entrepreneurs joint research conference (EBRD).",
     abstract: (
       <>
-        We conduct a novel field experiment in Ethiopia to examine how
-        institutional features influence inclusive decision-making. Specifically,
-        we implement a business plan competition in which we vary (i) whether
-        judges are reminded of the organization&apos;s commitment to gender
-        equality and (ii) whether judges must justify their decisions to peers. We
-        find that highlighting organizational values substantially improves
-        outcomes for high-quality female entrepreneurs, as determined by expert
-        assessments and machine-learning predictions. In contrast, prompting
-        judges to justify their decisions—thereby increasing social image
-        concerns—does not improve female candidates&apos; success but does enhance
-        consistency and agreement among judges, even without communication. Our
-        findings suggest that simple institutional nudges promoting equal
-        opportunity can enhance the quality of evaluative decisions and improve
-        outcomes for high-potential female applicants.
+        We conduct a field experiment within a business plan competition to
+        examine how institutional features influence inclusive decision-making.
+        In the control group, over the course of independent sequential
+        assessments, evaluators become less likely to recommend female
+        candidates. This pattern reduces the quality of their decisions, as
+        measured by expert assessments and machine-learning methods. Informing
+        judges of the organisation&apos;s commitment to equal opportunity entirely
+        offsets this decline, whereas requiring judges to justify decisions to
+        peers has a more muted effect. Our results show that decision fatigue can
+        undermine both decision quality and inclusivity, but simple organisational
+        messaging can resolve this.
       </>
     ),
   },
