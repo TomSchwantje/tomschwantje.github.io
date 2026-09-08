@@ -160,6 +160,10 @@ const paperCatalog: Paper[] = [
         href: "./files/Organisational_Values_Decision_Fatigue_and_Inclusion_Appendix.pdf",
       },
       { label: "CEPR DP", href: "https://cepr.org/publications/dp21457" },
+      {
+        label: "VoxDev",
+        href: "https://voxdev.org/topic/institutions-political-economy/how-decision-fatigue-undermines-diversity-grant-making",
+      },
     ],
     authors: "with Girum Abebe, Siân Brooke, Tom Gole and Simon Quinn",
     presentations:
