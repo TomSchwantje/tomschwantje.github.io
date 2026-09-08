@@ -58,6 +58,10 @@ const paperCatalog: Paper[] = [
         label: "Draft",
         href: "./files/Management_Style_under_the_Spotlight.pdf",
       },
+      {
+        label: "Appendix",
+        href: "./files/Management_Style_under_the_Spotlight_Online_Appendix.pdf",
+      },
       { label: "CEPR DP", href: "https://cepr.org/publications/dp21043" },
       {
         label: "VoxDev",
