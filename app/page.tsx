@@ -111,7 +111,7 @@ const paperCatalog: Paper[] = [
     status: "Submitted",
     links: [
       {
-        label: "Latest version here",
+        label: "latest version here",
         href: "./files/Banking_under_Conflict.pdf",
       },
       { label: "CEPR DP", href: "https://cepr.org/publications/dp21511" },
