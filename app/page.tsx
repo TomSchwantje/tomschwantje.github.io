@@ -114,6 +114,10 @@ const paperCatalog: Paper[] = [
         label: "latest version here",
         href: "./files/Banking_under_Conflict.pdf",
       },
+      {
+        label: "Appendix",
+        href: "./banking-conflict-appendix/",
+      },
       { label: "CEPR DP", href: "https://cepr.org/publications/dp21511" },
       { label: "CSEF WP", href: "https://www.csef.it/WP/wp782.pdf" },
       {
