@@ -25,7 +25,7 @@ const paperCatalog: Paper[] = [
       },
     ],
     presentations:
-      "CSAE Research Workshop; Oxford Applied Micro Group; Workshop on Frontiers in Measurement and Survey Methods; Empirical Management Conference.",
+      "CSAE Research Workshop; Oxford Applied Micro Group; Workshop on Frontiers in Measurement and Survey Methods; Empirical Management Conference; Frontiers in Management Research Workshop.",
     abstract: (
       <>
         It is well understood that most organisational practices are communicated
