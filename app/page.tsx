@@ -107,7 +107,7 @@ const paperCatalog: Paper[] = [
     ),
   },
   {
-    title: "Banking under Conflict: Managers and Organizational Design",
+    title: "Banking under Conflict: Managers and Organisational Design",
     status: "Submitted",
     links: [
       {
