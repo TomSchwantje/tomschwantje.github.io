@@ -107,7 +107,7 @@ const paperCatalog: Paper[] = [
     ),
   },
   {
-    title: "Banking under Conflict: Managers and Organisational Design",
+    title: "Banking under Conflict: Managers and Organizational Design",
     status: "Submitted",
     links: [
       {
@@ -140,16 +140,22 @@ const paperCatalog: Paper[] = [
     abstract: (
       <>
         How do organizations adapt internally when ethnic divisions intensify? We
-        develop a model with an organization jointly choosing managerial
-        assignment and delegation when locally-matched managers have better
-        information but are less aligned with headquarters, and test it using a
-        panel of Ethiopian bank branches. Exploiting variation in banks&apos;
-        exposure to ethnic conflict through their branch networks, we find that
-        conflict increases the appointment of locally-matched managers, while
-        reducing their lending autonomy and leaving branch credit mostly
-        unaffected. Conflict-exposed branches are more likely to be staffed by
-        experienced insiders reassigned within the bank. An LLM-based CEO vignette
-        exercise corroborates this mechanism.
+        develop a model in which a bank jointly chooses the ethnicity of its branch
+        manager and how much lending authority to delegate. Managers who share
+        local borrowers&apos; ethnicity acquire better information about them but
+        are also more prone to favor them at the bank&apos;s expense. Conflict
+        changes the relative importance of these two frictions, shaping both
+        optimal managerial appointments and delegation. We test the model using a
+        new panel of 979 Ethiopian bank branches surveyed before and after the
+        onset of the 2020 civil war, exploiting variation in banks&apos; exposure
+        to ethnic conflict across their branch networks as a source of plausibly
+        exogenous variation. Where the bank&apos;s and city&apos;s ethnicities differ,
+        a one-standard-deviation increase in exposure raises the probability of
+        appointing a manager sharing the city&apos;s predominant ethnicity by 6.7
+        percentage points, or 36 percent, while reducing delegated lending
+        authority. Conflict-exposed branches are also more likely to be staffed
+        by experienced insiders reassigned within the bank. We use an LLM-based
+        CEO vignette exercise to further examine the underlying mechanisms.
       </>
     ),
     appendix: false,
