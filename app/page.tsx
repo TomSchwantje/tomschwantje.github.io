@@ -181,7 +181,7 @@ const paperCatalog: Paper[] = [
     ],
     authors: "with Girum Abebe, Siân Brooke, Tom Gole and Simon Quinn",
     presentations:
-      "CSAE Research Workshop (2023), Food for Thought Seminar (Bocconi), CSAE Conference 2025, Milan Experimental Coffee, CEPR-EBRD 3rd Accelerating growth for women entrepreneurs joint research conference (EBRD).",
+      "CSAE Research Workshop (2023), Food for Thought Seminar (Bocconi), CSAE Conference 2025, Milan Experimental Coffee, CEPR-EBRD 3rd Accelerating growth for women entrepreneurs joint research conference (EBRD). Upcoming: CEPR Paris Symposium.",
     abstract: (
       <>
         We conduct a field experiment within a business plan competition to
