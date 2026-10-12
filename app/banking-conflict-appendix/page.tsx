@@ -10,25 +10,16 @@ export const metadata: Metadata = {
 
 export default function AppendixPage() {
   return (
-    <main className="appendix-page">
-      <section className="section appendix-shell">
-        <div className="appendix-heading">
-          <h1>Banking under Conflict — Online Appendix</h1>
-          <a
-            href="../files/Banking_under_Conflict_Online_Appendix.pdf"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Download PDF
-          </a>
-        </div>
-        <iframe
-          className="pdf-frame"
-          src="../files/Banking_under_Conflict_Online_Appendix.pdf"
-          title="Banking under Conflict online appendix"
-          allow="autoplay"
-        />
-      </section>
+    <main>
+      <meta
+        httpEquiv="refresh"
+        content="0; url=../files/Banking_under_Conflict_Online_Appendix.pdf"
+      />
+      <p>
+        <a href="../files/Banking_under_Conflict_Online_Appendix.pdf">
+          Open the Banking under Conflict online appendix PDF
+        </a>
+      </p>
     </main>
   );
 }

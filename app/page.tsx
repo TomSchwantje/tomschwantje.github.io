@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 type LinkItem = {
   label: string;
   href: string;
@@ -116,7 +114,7 @@ const paperCatalog: Paper[] = [
       },
       {
         label: "Appendix",
-        href: "./banking-conflict-appendix/",
+        href: "./files/Banking_under_Conflict_Online_Appendix.pdf",
       },
       { label: "CEPR DP", href: "https://cepr.org/publications/dp21511" },
       { label: "CSEF WP", href: "https://www.csef.it/WP/wp782.pdf" },
