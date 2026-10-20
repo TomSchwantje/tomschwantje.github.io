@@ -7,7 +7,7 @@ type Paper = {
   title: string;
   status?: string;
   links: LinkItem[];
-  authors?: string;
+  authors?: React.ReactNode;
   presentations: React.ReactNode;
   abstract: React.ReactNode;
   appendix?: boolean;
@@ -70,8 +70,14 @@ const paperCatalog: Paper[] = [
         href: "https://cepr.org/multimedia/management-under-spotlight",
       },
     ],
-    authors:
-      "Joint work with Girum Abebe, Marcel Fafchamps, Michael Koelle and Simon Quinn",
+    authors: (
+      <>
+        Joint work with Girum Abebe, {" "}
+        <ExternalLink href="https://economics.stanford.edu/people/marcel-fafchamps">Marcel Fafchamps</ExternalLink>,{" "}
+        <ExternalLink href="https://sites.google.com/site/michaelrkoelle">Michael Koelle</ExternalLink> and{" "}
+        <ExternalLink href="https://www.simonrquinn.com/">Simon Quinn</ExternalLink>
+      </>
+    ),
     presentations: (
       <>
         City St George&apos;s (University of London)*, 10th CSEF-IGIER
@@ -123,7 +129,12 @@ const paperCatalog: Paper[] = [
         href: "https://docs.dises.univpm.it/web/quaderni/pdfmofir/Mofir198.pdf",
       },
     ],
-    authors: "with Nicola Limodio and Luca Picariello",
+    authors: (
+      <>
+        with <ExternalLink href="https://finance.unibocconi.eu/faculty/nicola-limodio">Nicola Limodio</ExternalLink> and{" "}
+        <ExternalLink href="https://csef.it/people/luca-picariello/">Luca Picariello</ExternalLink>
+      </>
+    ),
     presentations: (
       <>
         10th CSEF-IGIER Symposium on Economics and Institutions*, EEA Congress
@@ -177,7 +188,14 @@ const paperCatalog: Paper[] = [
         href: "https://voxdev.org/topic/institutions-political-economy/how-decision-fatigue-undermines-diversity-grant-making",
       },
     ],
-    authors: "with Girum Abebe, Siân Brooke, Tom Gole and Simon Quinn",
+    authors: (
+      <>
+        with Girum Abebe, {" "}
+        <ExternalLink href="https://sianbrooke.com/">Siân Brooke</ExternalLink>,{" "}
+        <ExternalLink href="https://cpd.org.au/people/tom-gole/">Tom Gole</ExternalLink> and{" "}
+        <ExternalLink href="https://www.simonrquinn.com/">Simon Quinn</ExternalLink>
+      </>
+    ),
     presentations:
       "CSAE Research Workshop (2023), Food for Thought Seminar (Bocconi), CSAE Conference 2025, Milan Experimental Coffee, CEPR-EBRD 3rd Accelerating growth for women entrepreneurs joint research conference (EBRD). Upcoming: CEPR Paris Symposium.",
     abstract: (
@@ -351,8 +369,10 @@ export default function Home() {
           <h2>Selected Work in Progress</h2>
           <div className="wip-list">
             <div className="wip-item">
-              <h3>Management, Internet and Financial Technology Adoption</h3>
-              <p>with Nicola Limodio</p>
+              <h3>Management and Technology Adoption in Banking</h3>
+              <p>
+                with <ExternalLink href="https://finance.unibocconi.eu/faculty/nicola-limodio">Nicola Limodio</ExternalLink>
+              </p>
             </div>
             <div className="wip-item">
               <h3>
