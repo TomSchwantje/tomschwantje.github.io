@@ -346,6 +346,11 @@ export default function Home() {
                     Curriculum Vitae
                   </ExternalLink>
                 </p>
+                <p>
+                  <ExternalLink href="./files/Tom_Schwantje_Research_Statement.pdf">
+                    Research Statement
+                  </ExternalLink>
+                </p>
               </div>
             </div>
           </div>
