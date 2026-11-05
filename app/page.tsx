@@ -318,13 +318,12 @@ export default function Home() {
                   I am on the 2026–27 academic job market.
                 </p>
                 <p>
-                  My primary fields of interest are organisational economics and
-                  management, and their applications to development economics and
-                  finance. I am interested in the role organisations play in economic
-                  development both in their own right and by contributing to broader
-                  social objectives, and how their internal organisation supports
-                  this. My research increasingly focuses on the role of the financial
-                  sector in this process.
+                  I am an organisational economist studying how firms in low-income
+                  countries, and banks in particular, make decisions. My research
+                  examines whom firms give authority to, how much discretion they
+                  delegate, and how rules and norms shape managerial decisions. I
+                  study how these organisational choices shape access to credit and
+                  employment.
                 </p>
                 <p>
                   Many of my projects develop new (Bayesian) tools to measure
