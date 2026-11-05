@@ -315,7 +315,7 @@ export default function Home() {
                   .
                 </p>
                 <p className="job-market-note">
-                  I will be on the 2026–27 academic job market.
+                  I am on the 2026–27 academic job market.
                 </p>
                 <p>
                   My primary fields of interest are organisational economics and
