@@ -384,6 +384,13 @@ export default function Home() {
                 Identifying Complementarities
               </h3>
             </div>
+            <div className="wip-item">
+              <h3>Wholesale Funding and Lending to Female African Entrepreneurs</h3>
+              <p>
+                with <ExternalLink href="https://thorstenbeck.com">Thorsten Beck</ExternalLink>{" "}
+                (in collaboration with Innovations for Poverty Action)
+              </p>
+            </div>
           </div>
         </section>
       </main>
